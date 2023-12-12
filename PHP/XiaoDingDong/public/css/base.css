@@ -1,0 +1,56 @@
+.profile {
+    margin-right: 1.5rem;
+}
+
+.info {
+    position: fixed !important;
+    top: 3rem !important;
+    left: 12rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.profile-image {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+footer > hr {
+    width: 75%;
+}
+
+footer img {
+    height: 1.8rem;
+}
+
+.btn-primary {
+    background-color: black !important;
+    color: rgb(255, 255, 177) !important;
+    border: 1px solid white !important;
+}
+
+.yellow {
+    color: rgb(255, 221, 0);
+}
+
+main {
+    background-image: url('../../assets/others/background.jpg');
+    background-size: cover;
+}

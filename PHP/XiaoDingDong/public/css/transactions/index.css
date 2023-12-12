@@ -1,0 +1,24 @@
+main {
+    min-height: 85vh;
+    background-color: gray;
+    padding: 4rem 16rem;
+}
+
+.message {
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: black;
+    color: yellow;
+}
+
+.message > p {
+    margin: 0;
+}
+
+th {
+    vertical-align: middle;
+}
+
+tr {
+    text-align: center;
+}

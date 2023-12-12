@@ -1,0 +1,51 @@
+main {
+    padding: 3rem 8rem;
+    min-height: 80vh;
+}
+
+p {
+    padding: 0;
+}
+
+.tag {
+    margin-right: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.result {
+    padding: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.filter-choices {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    width: fit-content;
+}
+
+.result > a > img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+h5 {
+    margin-bottom: 0.5rem !important;
+}
+h6 {
+    margin: 0 !important;
+}
+
+.message {
+    padding: 1rem;
+    background-color: gray;
+}

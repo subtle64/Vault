@@ -1,0 +1,141 @@
+main {
+    min-height: 100vh;
+}
+
+section {
+    margin: 2rem 8rem !important;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.heading > .section-header {
+    font-size: 1.5rem;
+}
+
+.category {
+    width: 100%;
+}
+
+#heading-text {
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.divider {
+    flex-grow: 1;
+    margin-left: 1rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.05));
+}
+
+.cards-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+#chairs-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/chair-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cabinets-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/cabinet-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#metalwares-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/metalware-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#one {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#two {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#three {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#four {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/4.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#five {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/5.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#six {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/6.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#seven {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/7.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#eight {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/8.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nine {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/9.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ten {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/10.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}

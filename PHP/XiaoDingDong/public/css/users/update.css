@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 16rem;
+    justify-content: center;
+    align-items: center;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+form {
+    width: 55%;
+}
+
+label {
+    background-color: black !important;
+    color: rgb(255, 225, 0) !important;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: -0.1rem !important;
+}
+
+.form-control {
+    border-radius: 0 0.5rem 0.5rem 0.5rem !important;
+    border: 3px solid black !important;
+}

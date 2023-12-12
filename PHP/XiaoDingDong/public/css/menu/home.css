@@ -1,0 +1,28 @@
+main {
+    padding: 4rem 8rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(175px, 1fr));
+    gap: 1rem;
+}
+
+.tag {
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.card {
+    background-color: black !important;
+    color: rgb(255, 230, 0) !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: 12rem;
+    object-fit: cover !important;
+}

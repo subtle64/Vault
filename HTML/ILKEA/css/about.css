@@ -1,0 +1,48 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > .section-header {
+    font-size: 2rem;
+}
+
+#about-text {
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+
+.bg-gray {
+    background: linear-gradient(to right,#151515, #2e2d2d);
+    color: #E1BB80;
+}
+
+.bg-brown {
+    background: linear-gradient(to right,#352208, #614216);
+    color: #E1BB80;
+}
+
+.bg-steel {
+    background: linear-gradient(to right,#e1e1e1, #ffffff);
+    color: #352208;
+}
+
+.content-card {
+    display: flex;;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.content-card-text {
+    padding: 3rem;
+    width: 60%;
+}
+
+.content-card-img {
+    width: 40%;
+    object-fit: cover;
+}

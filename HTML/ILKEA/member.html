@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILKEA | Homepage</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/member.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./home.html"><img src="assets/logo_1080px.png" alt=""></a>
+        <ul>
+            <a href="./home.html">
+                <li>Home</li>
+            </a>
+            <a href="./gallery.html">
+                <li>Gallery</li>
+            </a>
+            <a href="#">
+                <li>Member</li>
+            </a>
+            <a href="./about.html">
+                <li>About Us</li>
+            </a>
+            <a href="./contact.html">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+    </nav>
+    <main id="main">
+        <div class="form-container">
+            <form id = "register-form" novalidate>
+                <h1>Hello, new member! 🙌</h1>
+                <div class="form-input">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" name="username" placeholder="">
+                    <p class = "p error" id = "username-error"></p>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" placeholder="">
+                    <p class = "p error" id = "email-error"></p>
+                </div>
+                <div class="form-input">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" placeholder="">
+                    <p class = "p error" id = "password-error"></p>
+                </div>
+                <div class="form-input">
+                    <label for="age">Age</label>
+                    <input id="age" type="number" name="age" placeholder="">
+                    <p class = "p error" id = "age-error"></p>
+                </div>
+                <div class="form-input">
+                    <div class = "form-group">
+                        <div class = "radio-group">
+                            <input id="male" type="radio" name="gender" placeholder="" value="true">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class = "radio-group">
+                            <input id="female" type="radio" name="gender" placeholder="" value="true">
+                            <label for="female">Female</label>
+                        </div>
+                        <p class = "p error" id = "gender-error"></p>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="email">Address</label>
+                    <input id="address" type="text" name="address" placeholder="">
+                    <p class = "p error" id = "address-error"></p>
+                </div>
+                <div class="form-input">
+                    <div class = "checkbox-group">
+                        <input id="toc" type="checkbox" name="toc" placeholder="">
+                        <label for="toc">I agree to the terms and conditions of ILKEA.</label>
+                        <p class = "p error" id = "toc-error"></p>
+                    </div>
+                </div>
+
+                <button id = "register" onclick="validate()">Register</button>
+            </form>
+            <div class = "modal" id = "success-popup">
+                <img src="./assets/success.png" alt="">
+                <div class = "modal-content">
+                    <p class = "p" id = "success-message">Succesfully registered.</p>
+                    <p class = "p">Redirecting to the home page...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer class="grid-container">
+        <div class="footer-col justify-center">
+            <img class="logo-img" src="assets/logo_1080px.png" alt="">
+            <a href="" class="p">Copyright © 2023 <br> PT. ILKEA Jaya Sejahtera</a>
+        </div>
+        <div class="footer-col">
+            <h2 class="p">Explore</h2>
+            <a href="./home.html" class="p">Home</a>
+            <a href="./gallery.html" class="p">Gallery</a>
+            <a href="#" class="p">Member</a>
+            <a href="./about.html" class="p">About Us</a>
+            <a href="./contact.html" class="p">Contact Us</a>
+        </div>
+        <div class="footer-col">
+            <h2 class="p">Connect</h2>
+            <a href="" class="p">Instagram</a>
+            <a href="" class="p">Whatsapp</a>
+            <a href="" class="p">Facebook</a>
+        </div>
+        <div class="footer-col">
+            <h2 class="p">Catalogue</h2>
+            <a href="" class="p">Nala Series</a>
+            <a href="" class="p">Ebony Series</a>
+            <a href="" class="p">Mahogany Series</a>
+        </div>
+    </footer>
+    <script src = "./js/validate.js"></script>
+</body>
+
+</html>

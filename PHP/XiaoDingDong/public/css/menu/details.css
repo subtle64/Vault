@@ -1,0 +1,29 @@
+
+.img-detail {
+    width: 48rem;
+    height: 26rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.details > h4 {
+    margin: 0;
+}
+
+main {
+    padding: 3rem;
+    min-height: 85vh;
+}
+
+main > h1 {
+    text-align: center;
+}

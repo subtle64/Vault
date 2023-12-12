@@ -1,0 +1,157 @@
+html {
+    overflow-y: scroll;
+}
+
+.section-header > h1 {
+    color:#352208;
+}
+
+.banner {
+    display: flex;
+    margin: 1rem 6rem;
+    background-color: #E1BB80;
+    background-image: url('../assets/banner-image-1.jpg');
+    background-size: cover;
+    background-position: bottom -20px right -250px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.banner-content {
+    background-color: #E1BB80;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    width: 65%;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    color: #352208;
+}
+
+.banner-content:hover {
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text {
+    color: #352208;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cards-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+#legacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#legacy > .section-header {
+    font-size: 2rem;
+}
+
+#legacy-text {
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+
+.content-card {
+    display: flex;
+    background: linear-gradient(to right,#352208, #614216);
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #E1BB80;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.content-card-text {
+    padding: 3rem;
+    width: 60%;
+}
+
+.content-card-img {
+    width: 40%;
+    object-fit: cover;
+}
+
+#chairs {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/chairs.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#chairs {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/chairs.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cabinets {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/cabinets.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#tables {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/tables.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#kitchenware {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/kitchenware.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#decorations {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/decorations.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nala {
+    background: url('../assets/nala.jpg');
+    background-size: cover;
+}
+
+#mahogany {
+    background: url('../assets/mahogany.jpg');
+    background-size: cover;
+}
+
+#ebony {
+    background: url('../assets/ebony.jpg');
+    background-size: cover;
+}
+
+#chairs-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/chair-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cabinets-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/cabinet-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#metalwares-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%),
+    url('../assets/metalware-1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

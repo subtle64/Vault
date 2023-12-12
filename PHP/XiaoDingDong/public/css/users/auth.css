@@ -1,0 +1,23 @@
+.main-bg {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../assets/others/wallpaper.jpg');
+    background-size: contain;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    justify-content: center;
+    width: 25%;
+    background-color: rgb(24, 19, 18);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
