@@ -1,0 +1,14 @@
+services:
+  python3:
+    build: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [ gpu ]
+    volumes:
+      - ./workspace:/workspace
+    container_name: python3
+    stdin_open: true
+    tty: true

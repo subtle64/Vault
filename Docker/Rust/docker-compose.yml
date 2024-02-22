@@ -1,0 +1,8 @@
+services:
+  rustup:
+    image: docker.io/rust:alpine
+    volumes:
+      - ./workspace:/workspace
+    container_name: rustup
+    stdin_open: true
+    tty: true

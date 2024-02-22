@@ -1,0 +1,54 @@
+services:
+  spark:
+    image: docker.io/bitnami/spark:latest
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - '8080:8080'
+      - '4040:4040'
+      - '7077:7077'
+    volumes:
+      - ./data:/data
+      - ./src:/src
+  spark-worker:
+    image: docker.io/bitnami/spark:latest
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=3G
+      - SPARK_EXECUTOR_MEMORY=3G
+      - SPARK_WORKER_CORES=8
+    volumes:
+      - ./data:/data
+      - ./src:/src
+  zookeeper:
+    image: docker.io/bitnami/zookeeper:latest
+    ports:
+      - "2181:2181"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+  kafka:
+    image: docker.io/bitnami/kafka:latest
+    ports:
+      - "9092:9092"
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
+      - zookeeper
+    volumes:
+      - ./data:/data
+      - ./src:/src
+  jupyter:
+    image: docker.io/jupyter/pyspark-notebook:latest
+    ports:
+      - "9999:9999"
+    environment:
+      - JUPYTER_PORT=9999
+    volumes:
+      - ./workspace:/home/jovyan/work
+      - ./data:/data
+      - ./src:/src
+
+
+

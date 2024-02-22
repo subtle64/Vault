@@ -1,0 +1,8 @@
+services:
+  gcc:
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    container_name: gcc
+    stdin_open: true
+    tty: true
